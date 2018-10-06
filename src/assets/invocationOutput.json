@@ -1,0 +1,657 @@
+{
+    "metadata":  {
+                     "id":  "bestpracticesuggestions",
+                     "name":  "Check Best Practices for Prod Apps",
+                     "author":  "",
+                     "description":  "Evaluating this web application to determine if it follows the best practices for enhanced stability and reliability.",
+                     "category":  null,
+                     "supportTopicList":  [
+
+                                          ],
+                     "typeId":  "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                 },
+    "dataset":  [
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Warning",
+                                                       "test test",
+                                                       "",
+                                                       "",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Critical",
+                                                       "AlwaysOn Disabled",
+                                                       "Scenario",
+                                                       "If the site is inactive for an extended period of time, the process associated with it is shut down to conserve resources. Subsequent requests following a long idle time, may take longer to respond as the process has to be re-started and the site re-initialized.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Critical",
+                                                       "AlwaysOn Disabled",
+                                                       "Solution",
+                                                       "For applications that are accessed infrequently and are sensitive to start-up delay\u0027s, please enable AlwaysOn.",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Warning",
+                                                       "Azure Traffic Manager Not Configured",
+                                                       "Scenario",
+                                                       "If your users browse the site from a geographic locations other than where the website is hosted, they may experience delay accessing the site. Also, if the site is deployed only in one region, it is susceptible to downtime in the case of a region-wide outage.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Warning",
+                                                       "Azure Traffic Manager Not Configured",
+                                                       "Solution",
+                                                       "Deploy the site in multiple geo locations and configure Traffic Manager for better performance and reliability.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Warning",
+                                                       "Azure Traffic Manager Not Configured",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003cli/\u003e\u003ca target=\"_blank\" href = \"https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview\"\u003eOverview of Traffic Manager\u003c/a\u003e\n        \u003cli/\u003e\u003ca target =\"_blank\" href = \"https://docs.microsoft.com/en-us/azure/app-service/web-sites-traffic-manager\"\u003eControlling Azure App Service traffic with Azure Traffic Manager\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Warning",
+                                                       "ARR Affinity is Enabled",
+                                                       "Scenario",
+                                                       "With ARR Affinity enabled, a client is tied to a specific web worker resulting in unequal distribution of traffic across various worker instances.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Warning",
+                                                       "ARR Affinity is Enabled",
+                                                       "Solution",
+                                                       "Some applications need the client to be tied to a worker for them to work e.g.. Applications using In-Process session. If this is not the case, disable ARR Affinity to achieve a more even load distribution.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Warning",
+                                                       "ARR Affinity is Enabled",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003ca target =\"_blank\" href = \"https://blogs.msdn.microsoft.com/benjaminperkins/2016/06/03/setting-application-request-routing-arr-affinity-for-your-azure-app-service/\"\u003eSetting Application Request Routing – ARR Affinity for your Azure App Service\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Warning",
+                                                       "Auto-Scale profile not configured",
+                                                       "Insight",
+                                                       "For production apps, its recommended to configure auto scaling. This ensures that the app is ready for burst loads as well as save costs when demand is low (eg: nights and weekends). If this is not a production app, you can safely ignore this warning.",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Warning",
+                                                       "Requests exceeding timeout threshold detected in last 1 hour",
+                                                       "Scenario",
+                                                       "Requests taking longer than 240 seconds are responded back with 500 in order to conserve resources. These requests however are allowed to execute on the worker to avoid data inconsistencies within the application.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Warning",
+                                                       "Requests exceeding timeout threshold detected in last 1 hour",
+                                                       "Solution",
+                                                       "Please use Application Insights or review the application logs to investigate why these requests are taking a long time.",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "Table_0",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "PreciseTimeStamp",
+                                                          "dataType":  "DateTime",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Count",
+                                                          "dataType":  "Int64",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "10/5/2018 7:15:00 PM",
+                                                       "2"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "defaultValue":  0,
+                                                    "graphType":  0,
+                                                    "graphOptions":  null,
+                                                    "timestampColumnName":  null,
+                                                    "roleInstanceColumnName":  null,
+                                                    "seriesColumns":  null,
+                                                    "type":  2,
+                                                    "title":  "Requests exceeding timeout in the past 1 hour",
+                                                    "description":  "Requests taking longer than 240 seconds to complete are returned back as 500. The requests however are allowed to execute on the worker to avoid data inconsistencies within the application. Please review the application logs to investigate why these requests are taking a long time"
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+
+                                                  ],
+                                      "rows":  [
+
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "detectorIds":  [
+                                                                        "CustomDomainAndSSL"
+                                                                    ],
+                                                    "messageIfCritical":  null,
+                                                    "type":  10,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Success",
+                                                       "Running on an App Service Plan for Production Workloads",
+                                                       "Insight",
+                                                       "Your web app is running on a SKU that is optimized for production workloads. Good choice!",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Success",
+                                                       "Running on an App Service Plan for Production Workloads",
+                                                       "Learn more",
+                                                       "\u003ca target=\"_blank\" href=\"https://azure.microsoft.com/en-us/pricing/details/app-service/\"\u003eAzure App Service Plan Pricing Information\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Success",
+                                                       "Using Deployment Slots",
+                                                       "Insight",
+                                                       "\u003cspan style=\"font-weight: 700;color: #60ab1d;\"\u003eGreat job\u003c/span\u003e. This site has slots associated with it. Always deploy new code to a slot. Swap the code into production only once you confirm that this new code works the way that you expected.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Success",
+                                                       "Using Deployment Slots",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003ca target=\"_blank\" href=\"https://docs.microsoft.com/en-us/azure/app-service/web-sites-staged-publishing\"\u003eSetup staging environments in Azure App Service\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Success",
+                                                       "Distributing Your Web App Across Multiple Instances",
+                                                       "Scenario",
+                                                       "Great, your web app is running on at least two instances. This is optimal because instances in different upgrade domains will not be upgraded at the same time. While one worker instance is getting upgraded the other is still active to serve web requests.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Success",
+                                                       "Distributing Your Web App Across Multiple Instances",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003ca target =\"_blank\" href = \"https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-how-to-scale\"\u003eScale instance count manually or automatically\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Success",
+                                                       "App Service Plan hosts less than 15 active sites",
+                                                       "Scenario",
+                                                       "For production applications, it is recommended that an App Service plan does not exceed more than 15 sites. The number may actually be lower depending on how resource intensive the hosted applications are.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Success",
+                                                       "App Service Plan hosts less than 15 active sites",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003ca target= \"_blank\" href=\"https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview\"\u003eAzure App Service plan overview\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    },
+                    {
+                        "table":  {
+                                      "tableName":  "",
+                                      "columns":  [
+                                                      {
+                                                          "columnName":  "Status",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Message",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Name",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Data.Value",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      },
+                                                      {
+                                                          "columnName":  "Expanded",
+                                                          "dataType":  "String",
+                                                          "columnType":  null
+                                                      }
+                                                  ],
+                                      "rows":  [
+                                                   [
+                                                       "Success",
+                                                       "App Service plan can scale out an additional 20%",
+                                                       "Insight",
+                                                       "App Service Plan hosting this webapp has room to scale out by more than additional 20% before it reaches its limit of maximum allowed worker instances for the current pricing tier. This is enough room for most applications to scale out enough and accomodate any unexpected spike in activity.",
+                                                       "False"
+                                                   ],
+                                                   [
+                                                       "Success",
+                                                       "App Service plan can scale out an additional 20%",
+                                                       "Learn more",
+                                                       "\u003cbr/\u003e\u003cli/\u003e\u003ca target= \"_blank\" href=\"https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview\"\u003eAzure App Service plan overview\u003c/a\u003e\n                    \u003cli/\u003e\u003ca target =\"_blank\" href = \"https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-how-to-scale\"\u003eScale instance count manually or automatically\u003c/a\u003e",
+                                                       "False"
+                                                   ]
+                                               ]
+                                  },
+                        "renderingProperties":  {
+                                                    "type":  7,
+                                                    "title":  null,
+                                                    "description":  null
+                                                }
+                    }
+                ],
+    "status":  {
+                   "message":  null,
+                   "statusId":  0
+               },
+    "dataProvidersMetadata":  null
+}

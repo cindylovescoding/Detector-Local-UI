@@ -1,0 +1,95 @@
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/bootstrap.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+
+.edit-button{
+    float:right;
+    margin-top: 10px;
+}
+
+.dynamic-data-container {
+    margin-bottom: 30px;
+}
+
+.content-header>h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content-header>h1>small {
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 4px;
+    font-weight: 300;
+}
+
+.content-header {
+    position: relative;
+    padding: 0px;
+}
+
+.ngx-datatable.bootstrap {
+    border: 1px solid #dddddd;
+}
+
+.ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell {
+    padding-right: 15px;
+}
+
+.ngx-datatable.bootstrap .datatable-body .datatable-body-row.datatable-row-even {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ngx-datatable.bootstrap .datatable-body .datatable-body-row:hover {
+    background-color: rgba(182, 235, 255, 0.22);
+}
+
+.ngx-datatable.bootstrap .datatable-footer {
+    border-top: 1px solid #d0d0d0;
+}
+
+.ngx-datatable.bootstrap .datatable-footer .datatable-pager ul li:not(.disabled).active a {
+    background-color: #aeaeae;
+}
+
+.ngx-datatable.bootstrap .datatable-header .datatable-header-cell {
+    padding: 0.15rem 0.75rem;
+    border-bottom: none;
+}
+
+.ngx-datatable.bootstrap .datatable-header,
+.ngx-datatable.bootstrap .datatable-footer {
+    background-color: #eaeaea;
+    font-weight: 600;
+}
+
+.ngx-datatable.bootstrap .datatable-footer,
+.ngx-datatable.bootstrap .datatable-footer .datatable-pager a,
+.ngx-datatable.bootstrap .datatable-header .datatable-header-cell .datatable-header-cell-label {
+    color: #3a3a3a;
+}
+
+.critical {
+    color: #ff0000;
+}
+.bg-critical{
+    background-color: #ff0000;
+}
+.warning {
+    color: #ff9104;
+}
+.bg-warning {
+    background-color: #ff9104;
+}
+.success {
+    color: #3da907;
+}
+.bg-success {
+    background-color: #3da907;
+}
+.info {
+    color: #3a9bc7;
+}
+.bg-info {
+    background-color: #3a9bc7;
+}
